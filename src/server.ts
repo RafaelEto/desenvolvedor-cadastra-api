@@ -3,7 +3,7 @@ import cors from "cors";
 import routes from "./routes";
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://desenvolvedor-cadastra-ruddy.vercel.app/",
   credentials: true,
   optionSuccessStatus: 200,
 };
