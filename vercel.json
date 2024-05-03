@@ -1,8 +1,1 @@
-{
-  "version": 2,
-  "functions": { "api": { "handler": "server.ts" } },
-  "routes": [
-    { "src": "/api/(.*)", "dest": "api" },
-    { "src": "/(.*)", "dest": "server.ts" }
-  ]
-}
+{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/src" }] }
